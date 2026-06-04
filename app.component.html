@@ -1,0 +1,45 @@
+<div class="app-layout">
+  <!-- Navigation Bar -->
+  <nav class="navbar glass-panel">
+    <div class="container flex items-center justify-between">
+      <a routerLink="/" class="logo flex items-center gap-2">
+        <span class="material-icons gradient-text" style="font-size: 2rem;">medical_services</span>
+        <h1 class="gradient-text" style="margin: 0; font-size: 1.5rem;">CareConnect</h1>
+      </a>
+
+      <div class="nav-links flex gap-6 items-center">
+        <!-- Not Authenticated -->
+        <ng-container *ngIf="!authService.isAuthenticated()">
+          <a routerLink="/patient/login" class="nav-link">Patient Portal</a>
+          <a routerLink="/doctor/login" class="nav-link">Doctor Portal</a>
+        </ng-container>
+
+        <!-- Patient Authenticated -->
+        <ng-container *ngIf="authService.isPatient()">
+          <a routerLink="/patient/dashboard/specialties" class="nav-link" routerLinkActive="active">Book Appointment</a>
+          <a routerLink="/patient/dashboard/appointments" class="nav-link" routerLinkActive="active">My Appointments</a>
+          <div class="user-profile flex items-center gap-2 ml-4">
+            <span class="material-icons">account_circle</span>
+            <span>{{ authService.currentUser()?.name }}</span>
+            <button class="btn-outline btn-sm ml-2" (click)="authService.logout()">Logout</button>
+          </div>
+        </ng-container>
+
+        <!-- Doctor Authenticated -->
+        <ng-container *ngIf="authService.isDoctor()">
+          <a routerLink="/doctor/dashboard/appointments" class="nav-link" routerLinkActive="active">Appointments Hub</a>
+          <div class="user-profile flex items-center gap-2 ml-4">
+            <span class="material-icons">account_circle</span>
+            <span>{{ authService.currentUser()?.name }}</span>
+            <button class="btn-outline btn-sm ml-2" (click)="authService.logout()">Logout</button>
+          </div>
+        </ng-container>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <main class="main-content">
+    <router-outlet></router-outlet>
+  </main>
+</div>
