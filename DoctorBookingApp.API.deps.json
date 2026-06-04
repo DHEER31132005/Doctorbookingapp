@@ -1,0 +1,304 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "DoctorBookingApp.API/1.0.0": {
+        "dependencies": {
+          "BCrypt.Net-Next": "4.2.0",
+          "MailKit": "4.17.0",
+          "Microsoft.AspNetCore.Authentication.JwtBearer": "10.0.8",
+          "Microsoft.AspNetCore.OpenApi": "10.0.8",
+          "MySqlConnector": "2.6.0",
+          "System.IdentityModel.Tokens.Jwt": "8.19.1"
+        },
+        "runtime": {
+          "DoctorBookingApp.API.dll": {}
+        }
+      },
+      "BCrypt.Net-Next/4.2.0": {
+        "runtime": {
+          "lib/net10.0/BCrypt-Net-Next.dll": {
+            "assemblyVersion": "4.2.0.0",
+            "fileVersion": "4.2.0.0"
+          }
+        }
+      },
+      "BouncyCastle.Cryptography/2.6.2": {
+        "runtime": {
+          "lib/net6.0/BouncyCastle.Cryptography.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.6.2.46322"
+          }
+        }
+      },
+      "MailKit/4.17.0": {
+        "dependencies": {
+          "MimeKit": "4.17.0"
+        },
+        "runtime": {
+          "lib/net10.0/MailKit.dll": {
+            "assemblyVersion": "4.17.0.0",
+            "fileVersion": "4.17.0.0"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Authentication.JwtBearer/10.0.8": {
+        "dependencies": {
+          "Microsoft.IdentityModel.Protocols.OpenIdConnect": "8.0.1"
+        },
+        "runtime": {
+          "lib/net10.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll": {
+            "assemblyVersion": "10.0.8.0",
+            "fileVersion": "10.0.826.23019"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.OpenApi/10.0.8": {
+        "dependencies": {
+          "Microsoft.OpenApi": "2.0.0"
+        },
+        "runtime": {
+          "lib/net10.0/Microsoft.AspNetCore.OpenApi.dll": {
+            "assemblyVersion": "10.0.8.0",
+            "fileVersion": "10.0.826.23019"
+          }
+        }
+      },
+      "Microsoft.Bcl.Cryptography/10.0.2": {
+        "runtime": {
+          "lib/net10.0/Microsoft.Bcl.Cryptography.dll": {
+            "assemblyVersion": "10.0.0.2",
+            "fileVersion": "10.0.225.61305"
+          }
+        }
+      },
+      "Microsoft.IdentityModel.Abstractions/8.19.1": {
+        "runtime": {
+          "lib/net10.0/Microsoft.IdentityModel.Abstractions.dll": {
+            "assemblyVersion": "8.19.1.0",
+            "fileVersion": "8.19.1.26153"
+          }
+        }
+      },
+      "Microsoft.IdentityModel.JsonWebTokens/8.19.1": {
+        "dependencies": {
+          "Microsoft.IdentityModel.Tokens": "8.19.1"
+        },
+        "runtime": {
+          "lib/net10.0/Microsoft.IdentityModel.JsonWebTokens.dll": {
+            "assemblyVersion": "8.19.1.0",
+            "fileVersion": "8.19.1.26153"
+          }
+        }
+      },
+      "Microsoft.IdentityModel.Logging/8.19.1": {
+        "dependencies": {
+          "Microsoft.IdentityModel.Abstractions": "8.19.1"
+        },
+        "runtime": {
+          "lib/net10.0/Microsoft.IdentityModel.Logging.dll": {
+            "assemblyVersion": "8.19.1.0",
+            "fileVersion": "8.19.1.26153"
+          }
+        }
+      },
+      "Microsoft.IdentityModel.Protocols/8.0.1": {
+        "dependencies": {
+          "Microsoft.IdentityModel.Tokens": "8.19.1"
+        },
+        "runtime": {
+          "lib/net9.0/Microsoft.IdentityModel.Protocols.dll": {
+            "assemblyVersion": "8.0.1.0",
+            "fileVersion": "8.0.1.50722"
+          }
+        }
+      },
+      "Microsoft.IdentityModel.Protocols.OpenIdConnect/8.0.1": {
+        "dependencies": {
+          "Microsoft.IdentityModel.Protocols": "8.0.1",
+          "System.IdentityModel.Tokens.Jwt": "8.19.1"
+        },
+        "runtime": {
+          "lib/net9.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll": {
+            "assemblyVersion": "8.0.1.0",
+            "fileVersion": "8.0.1.50722"
+          }
+        }
+      },
+      "Microsoft.IdentityModel.Tokens/8.19.1": {
+        "dependencies": {
+          "Microsoft.Bcl.Cryptography": "10.0.2",
+          "Microsoft.IdentityModel.Logging": "8.19.1"
+        },
+        "runtime": {
+          "lib/net10.0/Microsoft.IdentityModel.Tokens.dll": {
+            "assemblyVersion": "8.19.1.0",
+            "fileVersion": "8.19.1.26153"
+          }
+        }
+      },
+      "Microsoft.OpenApi/2.0.0": {
+        "runtime": {
+          "lib/net8.0/Microsoft.OpenApi.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "MimeKit/4.17.0": {
+        "dependencies": {
+          "BouncyCastle.Cryptography": "2.6.2"
+        },
+        "runtime": {
+          "lib/net10.0/MimeKit.dll": {
+            "assemblyVersion": "4.17.0.0",
+            "fileVersion": "4.17.0.0"
+          }
+        }
+      },
+      "MySqlConnector/2.6.0": {
+        "runtime": {
+          "lib/net10.0/MySqlConnector.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.6.0.0"
+          }
+        }
+      },
+      "System.IdentityModel.Tokens.Jwt/8.19.1": {
+        "dependencies": {
+          "Microsoft.IdentityModel.JsonWebTokens": "8.19.1",
+          "Microsoft.IdentityModel.Tokens": "8.19.1"
+        },
+        "runtime": {
+          "lib/net10.0/System.IdentityModel.Tokens.Jwt.dll": {
+            "assemblyVersion": "8.19.1.0",
+            "fileVersion": "8.19.1.26153"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DoctorBookingApp.API/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BCrypt.Net-Next/4.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-gwLD2KfCuwQesP17aVh4h6lpiMPEVt5Lbpndo0ej903hNUUTtyxt3ARdDjmuydBRTAUICc7OVKVbaOvc6SQYXA==",
+      "path": "bcrypt.net-next/4.2.0",
+      "hashPath": "bcrypt.net-next.4.2.0.nupkg.sha512"
+    },
+    "BouncyCastle.Cryptography/2.6.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7oWOcvnntmMKNzDLsdxAYqApt+AjpRpP2CShjMfIa3umZ42UQMvH0tl1qAliYPNYO6vTdcGMqnRrCPmsfzTI1w==",
+      "path": "bouncycastle.cryptography/2.6.2",
+      "hashPath": "bouncycastle.cryptography.2.6.2.nupkg.sha512"
+    },
+    "MailKit/4.17.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1nUAVLxM9fhT/78we6/AGsCesnpn5dRNLLeRqOfr52Wnk87pzVwo5YMTMyqnmoXrYc7piGhmayiMA/OgDluIjg==",
+      "path": "mailkit/4.17.0",
+      "hashPath": "mailkit.4.17.0.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Authentication.JwtBearer/10.0.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-oGnE+X/SN6jdqao9WOkOIfyZ5+a0AtluJWy1Mxndq+kcWG6sx5k6l6tucu8/wJ7o9fHfLgVCzm/c4v/KVgVk6w==",
+      "path": "microsoft.aspnetcore.authentication.jwtbearer/10.0.8",
+      "hashPath": "microsoft.aspnetcore.authentication.jwtbearer.10.0.8.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.OpenApi/10.0.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cw24xHE2QaWwyEG9GQwFbjboyabub6Vd80DIItUGENzcQOa/BEnTrXsg2GADqWTmY/3ycqk9ToLGjgvF/VRlGA==",
+      "path": "microsoft.aspnetcore.openapi/10.0.8",
+      "hashPath": "microsoft.aspnetcore.openapi.10.0.8.nupkg.sha512"
+    },
+    "Microsoft.Bcl.Cryptography/10.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LG9Yll3B5aNpxv0+D47g6LiOiKBIlodhcHdQwcYzo8VeexFLGqx5ymetmA2aBRyo9cCcWsQWrFsdbsr8LvmWDw==",
+      "path": "microsoft.bcl.cryptography/10.0.2",
+      "hashPath": "microsoft.bcl.cryptography.10.0.2.nupkg.sha512"
+    },
+    "Microsoft.IdentityModel.Abstractions/8.19.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-gFA8THIk23uNF/vMdOHnjIdXD1LyA2g12cHzMJ+Xag6WpgWLw6E/6uCXxvA0gp9d2yAvkRt3xzFzMUiO/hofnQ==",
+      "path": "microsoft.identitymodel.abstractions/8.19.1",
+      "hashPath": "microsoft.identitymodel.abstractions.8.19.1.nupkg.sha512"
+    },
+    "Microsoft.IdentityModel.JsonWebTokens/8.19.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6eeY+y2QFyjj3XnCz/8gJdoP5smYHTS9ow1bw2nsZzDIPjPhBZlackYTIduSMipVpxnoT/B62LkrXX2jPggOXg==",
+      "path": "microsoft.identitymodel.jsonwebtokens/8.19.1",
+      "hashPath": "microsoft.identitymodel.jsonwebtokens.8.19.1.nupkg.sha512"
+    },
+    "Microsoft.IdentityModel.Logging/8.19.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-H+sMrMpdbWnwkQnpb/ESkQovtOgdefmj0ecGCcP40mDKzE5i4dUYkH6599M9mWYFNGNJnTp92l/9wLubYXWimw==",
+      "path": "microsoft.identitymodel.logging/8.19.1",
+      "hashPath": "microsoft.identitymodel.logging.8.19.1.nupkg.sha512"
+    },
+    "Microsoft.IdentityModel.Protocols/8.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-uA2vpKqU3I2mBBEaeJAWPTjT9v1TZrGWKdgK6G5qJd03CLx83kdiqO9cmiK8/n1erkHzFBwU/RphP83aAe3i3g==",
+      "path": "microsoft.identitymodel.protocols/8.0.1",
+      "hashPath": "microsoft.identitymodel.protocols.8.0.1.nupkg.sha512"
+    },
+    "Microsoft.IdentityModel.Protocols.OpenIdConnect/8.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-AQDbfpL+yzuuGhO/mQhKNsp44pm5Jv8/BI4KiFXR7beVGZoSH35zMV3PrmcfvSTsyI6qrcR898NzUauD6SRigg==",
+      "path": "microsoft.identitymodel.protocols.openidconnect/8.0.1",
+      "hashPath": "microsoft.identitymodel.protocols.openidconnect.8.0.1.nupkg.sha512"
+    },
+    "Microsoft.IdentityModel.Tokens/8.19.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KDiuSLXud2AFVNAOottd8ztVysfPeHyr4r8gofU3/VKUXlI7oytzGTnPsNJ/B3nui17rgz8wAdWNJOtzPjkUxw==",
+      "path": "microsoft.identitymodel.tokens/8.19.1",
+      "hashPath": "microsoft.identitymodel.tokens.8.19.1.nupkg.sha512"
+    },
+    "Microsoft.OpenApi/2.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-GGYLfzV/G/ct80OZ45JxnWP7NvMX1BCugn/lX7TH5o0lcVaviavsLMTxmFV2AybXWjbi3h6FF1vgZiTK6PXndw==",
+      "path": "microsoft.openapi/2.0.0",
+      "hashPath": "microsoft.openapi.2.0.0.nupkg.sha512"
+    },
+    "MimeKit/4.17.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-h/KXsCreJf8RpR/PSAtlbvYtZFndp9N8Wn1Bs248AL7ITyhn+AiIY5bLTvt60tbN2mu6g8KadtBNWygTji2lqg==",
+      "path": "mimekit/4.17.0",
+      "hashPath": "mimekit.4.17.0.nupkg.sha512"
+    },
+    "MySqlConnector/2.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-YLceXhrEznpXf8XkwvH6JWHjAq0AA2lsf/zYWiESe4B9ki2v473XH2GRcPbLwktBqYu1Uy3Dvs7G+mu48QKL2w==",
+      "path": "mysqlconnector/2.6.0",
+      "hashPath": "mysqlconnector.2.6.0.nupkg.sha512"
+    },
+    "System.IdentityModel.Tokens.Jwt/8.19.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2VHcRtT95GAcW1E3aVBLvL2rAAMxKHXKMXKXFyWzwgkdFXZPMMvP8tVOfnRydL4vTr1RirNuGC6T8VSEF2YsPQ==",
+      "path": "system.identitymodel.tokens.jwt/8.19.1",
+      "hashPath": "system.identitymodel.tokens.jwt.8.19.1.nupkg.sha512"
+    }
+  }
+}
